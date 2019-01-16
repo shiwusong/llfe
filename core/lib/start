@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "node $1/node_modules/.bin/next build ./client"
+node "$1/node_modules/.bin/next" build ./client
+echo "NODE_ENV=production node $2"
+NODE_ENV=production node "$2"

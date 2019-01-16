@@ -1,0 +1,21 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "llfe dev",
+    "start": "llfe start",
+    "build": "llfe build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@llfe/core": "file:../../core",
+    "fastify": "^1.13.4",
+    "fastify-plugin": "^1.4.0",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}

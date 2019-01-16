@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "node $1/node_modules/.bin/next build ./client"
+node "$1/node_modules/.bin/next" build ./client
