@@ -1,15 +1,15 @@
 {
-  "name": "@llfe/core",
-  "version": "0.0.1",
-  "description": "",
-  "main": "./lib/index.js",
-  "scripts": {},
-  "bin": {
-    "llfe": "./lib/index.js"
-  },
-  "author": "shiwusong",
-  "license": "ISC",
-  "dependencies": {
-    "cross-spawn": "^6.0.5"
-  }
+	"name": "@llfe/core",
+	"version": "0.0.4",
+	"description": "",
+	"main": "./lib/index.js",
+	"scripts": {},
+	"bin": {
+		"llfe": "./lib/index.js"
+	},
+	"author": "shiwusong",
+	"license": "ISC",
+	"dependencies": {
+		"cross-spawn": "^6.0.5"
+	}
 }

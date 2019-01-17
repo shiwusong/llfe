@@ -1,17 +1,16 @@
 {
-	"name": "e_simple",
+	"name": "e_antd",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "llfe dev",
-		"start": "llfe start",
-		"build": "llfe build"
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"@llfe/core": "latest",
+		"antd": "^3.12.3",
 		"fastify": "^1.13.4",
 		"fastify-plugin": "^1.4.0",
 		"next": "^7.0.2",
