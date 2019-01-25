@@ -1,23 +1,23 @@
 {
-	"name": "e_antd",
+	"name": "e-stylus",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"dev": "llfe dev",
-		"start": "llfe start",
-		"build": "llfe build"
+		"build": "llfe build",
+		"start": "llfe start"
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@llfe/core": "latest",
-		"@zeit/next-css": "^1.0.1",
-		"antd": "^3.12.3",
+		"@llfe/core": "0.0.4",
+		"@zeit/next-stylus": "^1.0.1",
 		"fastify": "^1.13.4",
 		"fastify-plugin": "^1.4.0",
 		"next": "^7.0.2",
 		"react": "^16.7.0",
-		"react-dom": "^16.7.0"
+		"react-dom": "^16.7.0",
+		"stylus": "^0.54.5"
 	}
 }

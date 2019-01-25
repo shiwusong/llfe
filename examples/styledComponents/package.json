@@ -1,23 +1,25 @@
 {
-	"name": "e_antd",
+	"name": "e_styledcomponents",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"dev": "llfe dev",
-		"start": "llfe start",
-		"build": "llfe build"
+		"build": "llfe build",
+		"start": "llfe start"
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@llfe/core": "latest",
-		"@zeit/next-css": "^1.0.1",
-		"antd": "^3.12.3",
+		"@llfe/core": "0.0.4",
 		"fastify": "^1.13.4",
 		"fastify-plugin": "^1.4.0",
 		"next": "^7.0.2",
 		"react": "^16.7.0",
-		"react-dom": "^16.7.0"
+		"react-dom": "^16.7.0",
+		"styled-components": "^4.1.3"
+	},
+	"devDependencies": {
+		"babel-plugin-styled-components": "^1.10.0"
 	}
 }
